@@ -1,6 +1,7 @@
 import React from 'react';
 import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
 import { Container, AppBar, Toolbar, Typography, Box, Button } from '@mui/material';
+import Portfolio from './portfolio';
 
 const theme = createTheme({
   palette: {
@@ -29,16 +30,7 @@ const App: React.FC = () => {
           </Toolbar>
         </AppBar>
         <Container maxWidth="lg" sx={{ mt: 4 }}>
-          <Typography variant="h3" component="h1" gutterBottom>
-            I'm Andrew Lee. I'm a Software Developer at Microsoft under the C + Ai Silver Org. You can check out my career and stuff I work on here.
-          </Typography>
-          <Typography variant="h5" component="h2" gutterBottom>
-            I'm a Software Developer
-          </Typography>
-          <Typography variant="body1" paragraph>
-            This is a sample portfolio website built with React and Material UI.
-            Feel free to customize it with your own content and style.
-          </Typography>
+          <Portfolio />
         </Container>
       </Box>
     </ThemeProvider>
