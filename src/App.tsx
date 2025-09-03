@@ -30,7 +30,7 @@ const App: React.FC = () => {
         </AppBar>
         <Container maxWidth="lg" sx={{ mt: 4 }}>
           <Typography variant="h3" component="h1" gutterBottom>
-            Welcome to My Portfolio
+            I'm Andrew Lee. I'm a Software Developer at Microsoft under the C + Ai Silver Org. You can check out my career and stuff I work on here.
           </Typography>
           <Typography variant="h5" component="h2" gutterBottom>
             I'm a Software Developer
